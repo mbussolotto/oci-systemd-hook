@@ -1,13 +1,13 @@
 %global provider        github
 %global provider_tld    com
-%global project         projectatomic
+%global project         mbussolotto
 %global repo            oci-systemd-hook
 # https://github.com/projectatomic/oci-systemd-hook
 %global provider_prefix %{provider}.%{provider_tld}/%{project}/%{repo}
 %global import_path     %{provider_prefix}
 
 Name:           %{repo}
-Version:        v0.2.0
+Version:        v0.2.1
 Release:        0%{shortcommit}%{?dist}
 Summary:        OCI systemd hook for docker
 Group:          Applications/Text
