@@ -1,0 +1,28 @@
+-------------------------------------------------------------------
+Tue Jun  6 08:25:03 UTC 2023 - Michele Bussolotto <michele.bussolotto@suse.com>
+
+- v0.2.1: build on obs
+
+-------------------------------------------------------------------
+* Tue May 1 2018 Dan Walsh <dwalsh@redhat.name> - 1:0.1.16-1.git05bd9a0
+- Merge pull request #90 from brahim-raddahi/master
+- fix invalid /etc/machine-id
+
+* Thu Dec 21 2017 Dan Walsh <dwalsh@redhat.com> - 1:0.1.15-1.git
+- Fix issue with oci-systemd-hook running in user namespaces
+- fix json file to run container with proper stage field.
+
+* Wed Sep 13 2017 Dan Walsh <dwalsh@redhat.com> - 0.1.5-1.gitde345df
+- Add support for json configuration to identify when to use hook
+- Needed for crio package
+
+* Thu Feb 18 2016 Dan Walsh <dwalsh@redhat.com> - 0.1.4-1.gitde345df
+- Fix up to prepare for review
+
+* Mon Nov 23 2015 Mrunal Patel <mrunalp@gmail.com> - 0.1.3
+- Fix bug in man page installation
+* Mon Nov 23 2015 Mrunal Patel <mrunalp@gmail.com> - 0.1.2
+- Add man pages
+* Mon Nov 23 2015 Mrunal Patel <mrunalp@gmail.com> - 0.1.1
+- Initial RPM release
+
